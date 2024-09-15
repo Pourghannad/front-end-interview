@@ -10,3 +10,6 @@
 >
  ### توضیح  flex-shirink
  > باعث میشه که بتونیم مشخص کنیم یک آیتم چقدر میتونه کوچیکتر بشه نسبت به بقیه آیتمها در فلکس. معمولا با flex-grow و flex-basis استفاده میشه
+## سوالات مربوط به javascript
+### توضیح primitive type
+>  این تایپها که شامل string, boolean, number, null, undefind و symbol هستن به in-built data types هم معروف هستن. این تایپ ها مستقیم در مموری ذخیره میشن و مقدار آن ها بعد از تخصیص قابل تغییر نیستن. تایپهای non-primitive شامل object ها و functionها میشن که به اون ها reference data types هم گفته میشه. به صورت کلی pirmitive تایپ ها immutable هستن و non-primitiveها mutable هستن. 
