@@ -12,4 +12,8 @@
  > باعث میشه که بتونیم مشخص کنیم یک آیتم چقدر میتونه کوچیکتر بشه نسبت به بقیه آیتمها در فلکس. معمولا با flex-grow و flex-basis استفاده میشه
 ## سوالات مربوط به javascript
 ### توضیح primitive type
->  این تایپها که شامل string, boolean, number, null, undefind و symbol هستن به in-built data types هم معروف هستن. این تایپ ها مستقیم در مموری ذخیره میشن و مقدار آن ها بعد از تخصیص قابل تغییر نیستن. تایپهای non-primitive شامل object ها و functionها میشن که به اون ها reference data types هم گفته میشه. به صورت کلی pirmitive تایپ ها immutable هستن و non-primitiveها mutable هستن. 
+>  این تایپها که شامل string, boolean, number, null, undefind و symbol هستن به in-built data types هم معروف هستن. این تایپ ها مستقیم در مموری ذخیره میشن و مقدار آن ها بعد از تخصیص قابل تغییر نیستن. تایپهای non-primitive شامل object ها و functionها میشن که به اون ها reference data types هم گفته میشه. به صورت کلی pirmitive تایپ ها immutable هستن و non-primitiveها mutable هستن.
+### عملکرد this در arrow function
+> در arrow function ها this همیشه ثابت میماند و به نزدیکترین function پدر خود مربوط میشود. وقتی که یک فانکشن را صدا میزنم که  arrow function است در واقع this در اون کار نمیکند و bind صورت نمیگیرد.
+### توضیح IIFE
+> مخفف عبارت Immediately Invoked Function Expression است و به فانکشنهایی گفته میشه که دقیقا بعد از تعریف کردنشون اجرا میشن
